@@ -1,4 +1,4 @@
-# CDS_Validating_Assigments
+# CDS Text Classification
 
 The Citizen Data Science program is an initiative by the Muma College of Business made in association with Tableau. The aim of the program is to teach the undergraduate students about deriving insights from data using Tableau. More information about the program can be found in the below link.
 https://www.usf.edu/business/centers/analytics-creativity/tableau-citizen-data-science-certificate.aspx
