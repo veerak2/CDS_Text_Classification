@@ -16,10 +16,16 @@ Things completed:
 - Designed a simple heuristic for classification by looking for key words such as 'interactive' and 'dashboard' in the transcript. Observed that some of the existing labels were wrong.
 - Relabelled the dataset. Implemented a quicker way to label by using IPython widgets.
 - Modularized the code. In the process of moving code from notebook to scripts.
+- MVP with a simple Gradient boosting classifier model with hardcoded hyperparameters
+- Implemented a extremely simple frontend with Streamlit
+- Served the model with Fastapi
+
+Next iteration:
+- Use the custom trained word embeddings using Word2Vec from gensim
+- Create a simple classification model with GlobalAveragePooling in Tensorflow
 
 To do:
 - Experiment with more models. Implement MLflow for tracking experiments. 
-- Use FastAPI for backend and streamlit for frontend.
 - Experiment with DVC(Data Version Control)
 - Containerize the application using Docker.
 
