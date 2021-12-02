@@ -1,6 +1,5 @@
-from CDS_Classifier import predict
+from CDS_Classifier import train,eval
+
+model = train.train()
 
 
-prediction = predict.prediction("i have a interactive interactive dashboard dashboard interactive interactive")
-
-print(prediction)
