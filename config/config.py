@@ -1,9 +1,16 @@
 from pathlib import Path
+import mlflow
 
 BASE_DIR = Path(__file__).parent.parent.absolute()
 CONFIG_DIR = Path(BASE_DIR, "config")
 DATA_DIR = Path(BASE_DIR, "data")
 STORE_DIR = Path(BASE_DIR, "stores")
+MODEL_REGISTRY = Path(STORE_DIR,"model")
+
+mlflow.set_tracking_uri(str(MODEL_REGISTRY.absolute()))
+
+
+
 #Union of all stopwords from nltk and Spacy
 STOPWORDS = ['three',
  'never',
