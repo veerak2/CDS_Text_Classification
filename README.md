@@ -10,20 +10,4 @@ These videos are then validated by the student assistants in the program. These 
 
 To achieve this, we obtained the transcripts from YouTube from historical data ie assignments that have already been validated. The transcripts will be our main source of signal.
 
-Things completed:
-- Obtained 1000 transcripts from YouTube. 
-- Preprocessed the corpus using nltk, spacy.
-- Designed a simple heuristic for classification by looking for key words such as 'interactive' and 'dashboard' in the transcript. Observed that some of the existing labels were wrong.
-- Relabelled the dataset. Implemented a quicker way to label by using IPython widgets.
-- Modularized the code. In the process of moving code from notebook to scripts.
-
-To do:
-- Experiment with more models. Implement MLflow for tracking experiments. 
-- Use FastAPI for backend and streamlit for frontend.
-- Experiment with DVC(Data Version Control)
-- Containerize the application using Docker.
-
-Given more time:
-- Unit testing for code using Pytest
-- Explore Great Expectations for testing data
 
